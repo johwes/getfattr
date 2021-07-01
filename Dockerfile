@@ -1,8 +1,8 @@
-from fedora/fedora:33-x86_64
+from registry.access.redhat.com/ubi8/ubi
 
 USER root
 
-RUN dnf install attr
+RUN dnf -y install attr  && dnf clean all
 
 USER 1001
 
