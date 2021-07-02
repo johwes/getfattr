@@ -1,4 +1,5 @@
-from registry.access.redhat.com/ubi8/ubi
+#from registry.access.redhat.com/ubi8/ubi
+from registry.fedoraproject.org/fedora
 
 USER root
 
