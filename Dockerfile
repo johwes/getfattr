@@ -3,7 +3,7 @@ from registry.fedoraproject.org/fedora
 
 USER root
 
-RUN dnf -y install attr  && dnf clean all
+RUN dnf -y install attr procps-ng && dnf clean all
 
 USER 1001
 
